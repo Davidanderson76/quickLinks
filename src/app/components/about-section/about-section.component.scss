@@ -1,0 +1,31 @@
+.example-card {
+  border-radius: 12px;
+  border-color: #313131;
+  background: #242424 !important;
+  color: white;
+  font-size: 20px;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.aboutText {
+  padding: 5px;
+}
+
+.container {
+  height: 500px;
+  width: 100%;
+}
+
+::ng-deep .mdc-card__actions {
+  justify-content: space-evenly;
+}
+::ng-deep .mat-mdc-button:not(:disabled) {
+  color: white !important;
+}
+::ng-deep .mat-mdc-card-subtitle {
+  color: rgb(121, 120, 120) !important;
+}

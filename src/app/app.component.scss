@@ -1,3 +1,46 @@
 ::ng-deep .mat-toolbar.mat-primary {
   background: #242424 !important;
 }
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+}
+
+.flex-item-left {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 50%;
+  width: 50%;
+}
+
+.container {
+  display: block;
+  height: 500px;
+  width: 500px;
+  padding: 2em;
+}
+
+@media (max-width: 900px) {
+  .flex-container {
+    flex-direction: column;
+    height: 100%;
+  }
+  .flex-item-left {
+    line-height: 400px !important;
+  }
+  .flex-item-right {
+    line-height: 10px !important;
+    width: 100%;
+  }
+}

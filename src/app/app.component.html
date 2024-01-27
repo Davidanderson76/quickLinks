@@ -1,15 +1,17 @@
 <mat-toolbar color="primary">
   <mat-icon>queue_music</mat-icon>
-  <span>DavidAC</span>
+  <span></span>
 </mat-toolbar>
 
-<iframe
-  style="border-radius: 12px;"
-  src="https://open.spotify.com/embed/playlist/4kDeVmGjtYWsaq2VYsQBSX?utm_source=generator&theme=0"
-  width="100%"
-  height="352"
-  frameborder="0"
-  allowfullscreen=""
-  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-  loading="lazy"
-></iframe>
+<div class="flex-container">
+  <div class="flex-item-left">
+    <app-spotify-player></app-spotify-player>
+  </div>
+  <div class="flex-item-right">
+    <app-about-section></app-about-section>
+  </div>
+</div>
+
+<div class="container">
+  <app-carousel [slides]="slides"></app-carousel>
+</div>
