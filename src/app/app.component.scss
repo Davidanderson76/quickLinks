@@ -8,6 +8,7 @@
   flex-direction: row;
   font-size: 30px;
   text-align: center;
+  overflow: hidden;
 }
 
 .flex-container > div {
@@ -45,14 +46,18 @@
   }
 }
 .footer-basic {
-  padding: 40px 0;
   background-color: #313131;
   color: #4b4c4d;
 }
 .footer-basic .copyright {
-  margin-top: 15px;
   text-align: center;
   font-size: 13px;
   color: #fff;
   margin-bottom: 0;
+}
+
+footer {
+  margin-top: 100px;
+  color: #fff;
+  padding: 1rem;
 }
