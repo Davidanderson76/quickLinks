@@ -7,7 +7,7 @@
 }
 
 .example-header-image {
-  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-image: url("../../../assets/images/IMG_3693_VSCO.JPG");
   background-size: cover;
 }
 
@@ -28,4 +28,8 @@
 }
 ::ng-deep .mat-mdc-card-subtitle {
   color: rgb(121, 120, 120) !important;
+}
+a {
+  color: white !important;
+  text-decoration: none;
 }

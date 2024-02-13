@@ -8,16 +8,30 @@ import { Component } from '@angular/core';
 export class AboutSectionComponent {
   public slides = [
     {
-      src: 'https://media.istockphoto.com/id/1660911398/photo/aerial-view-of-hong-kong-financial-district-and-business-centers-at-victoria-island.jpg?s=1024x1024&w=is&k=20&c=mBXZW6l0G6SfF1VOlvGjMmvNes1wqXdg2cYhl-_J8Cw=',
+      src: '../../../assets/images/01HFJQ0JXZVF7YEC4R46PE0G0C-hi-res-branded.jpg',
     },
     {
-      src: 'https://media.istockphoto.com/id/1356118511/photo/smart-city-and-abstract-dot-point-connect-with-gradient-line.jpg?s=1024x1024&w=is&k=20&c=6X3ZeDDU0juVtUv7W8rhL-O2tjA4itko7EP1czyruVo=',
+      src: '../../../assets/images/07B9B084-DB4B-40FD-9077-DB9896631CA9.JPG',
     },
     {
-      src: 'https://media.istockphoto.com/id/1660911398/photo/aerial-view-of-hong-kong-financial-district-and-business-centers-at-victoria-island.jpg?s=1024x1024&w=is&k=20&c=mBXZW6l0G6SfF1VOlvGjMmvNes1wqXdg2cYhl-_J8Cw=',
+      src: '../../../assets/images/IMG_2808.jpg',
     },
     {
-      src: 'https://media.istockphoto.com/id/1356118511/photo/smart-city-and-abstract-dot-point-connect-with-gradient-line.jpg?s=1024x1024&w=is&k=20&c=6X3ZeDDU0juVtUv7W8rhL-O2tjA4itko7EP1czyruVo=',
+      src: '../../../assets/images/16FE3ABE-AF45-4196-A455-4FB343D6F25E.JPG',
+    },
+    {
+      src: '../../../assets/images/SUMMER!.jpg',
+    },
+    {
+      src: '../../../assets/images/IMG_3365.jpg',
     },
   ];
+
+  emailSupport() {
+    location.href =
+      "mailto:david.anderson1993@gmail.com?subject='Connect'&body='write some message'";
+  }
+  instagram() {
+    location.href = 'https://www.instagram.com/davidandersoncreative/';
+  }
 }
